@@ -1,0 +1,410 @@
+20:30:33,395 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+20:30:33,415 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 32) JBAS010260: Activating JGroups subsystem.
+20:30:33,418 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 40) JBAS013171: Activating Security Subsystem
+20:30:33,418 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 41) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+20:30:33,443 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+20:30:33,472 INFO  [org.jboss.as.security] (MSC service thread 1-8) JBAS013170: Current PicketBox version=4.0.21.Final
+20:30:33,489 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.1.8.Final starting
+20:30:33,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017502: Undertow 1.1.8.Final starting
+20:30:33,503 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 28) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+20:30:33,503 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+20:30:33,667 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 24) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+20:30:33,703 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = h2
+20:30:33,798 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017527: Creating file handler for path /servers/ServerAppCapedWarf/welcome-content
+20:30:33,889 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+20:30:33,889 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+20:30:34,400 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.7.Final
+20:30:34,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017525: Started server default-server.
+20:30:34,439 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017531: Host default-host starting
+20:30:34,508 WARN  [org.jboss.as.connector.deployers.RADeployer] (MSC service thread 1-3) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:30:34,559 WARN  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-1) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:30:34,599 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /servers/ServerAppCapedWarf/standalone/deployments
+20:30:34,613 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017519: Undertow AJP listener ajp listening on /0.0.0.0:8009
+20:30:34,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:8080
+20:30:34,620 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on 127.0.0.1:9999
+20:30:34,625 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+20:30:34,646 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+20:30:34,853 INFO  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-1) IJ020002: Deployed: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:30:34,850 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingjournal,bindingsDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingbindings,largeMessagesDirectory=/servers/ServerAppCapedWarf/standalone/data/messaginglargemessages,pagingDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingpaging)
+20:30:34,873 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221006: Waiting to obtain live lock
+20:30:34,903 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221012: Using AIO Journal
+20:30:34,981 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 44) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+20:30:35,014 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support CORE
+20:30:35,020 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support AMQP
+20:30:35,023 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support STOMP
+20:30:35,105 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221034: Waiting to obtain live lock
+20:30:35,105 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221035: Live Server Obtained live lock
+20:30:35,656 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5455
+20:30:35,664 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5445
+20:30:35,728 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221007: Server is now live
+20:30:35,729 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] 
+20:30:35,741 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 44) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+20:30:35,766 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010406: Registered connection factory java:/JmsXA
+20:30:35,795 INFO  [org.hornetq.ra] (MSC service thread 1-3) HornetQ resource adaptor started
+20:30:35,796 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatorhornetq-ra
+20:30:35,797 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+20:30:35,797 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+20:30:35,799 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 46) HQ221003: trying to deploy queue jms.queue.capedwarfQueue
+20:30:35,847 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 46) JBAS011601: Bound messaging object to jndi name queue/capedwarf
+20:30:35,848 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 46) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/capedwarf
+20:30:35,848 INFO  [org.hornetq.jms.server] (ServerService Thread Pool -- 45) HQ121005: Invalid "host" value "0.0.0.0" detected for "netty" connector. Switching to "localhost". If this new address is incorrect please manually configure the connector to use the proper one.
+20:30:35,853 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 45) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+20:30:35,996 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+20:30:35,996 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+20:30:35,997 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) started in 13524ms - Started 210 of 411 services (243 services are lazy, passive or on-demand)
+20:30:43,262 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+20:30:43,263 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+20:30:43,268 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+20:30:43,269 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 18) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+20:30:43,270 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow AJP listener ajp suspending
+20:30:43,279 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 4) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+20:30:43,281 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow AJP listener ajp stopped, was bound to /0.0.0.0:8009
+20:30:43,284 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow HTTP listener default suspending
+20:30:43,285 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017532: Host default-host stopping
+20:30:43,289 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010418: Stopped Driver service with driver-name = h2
+20:30:43,292 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow HTTP listener default stopped, was bound to /0.0.0.0:8080
+20:30:43,293 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017506: Undertow 1.1.8.Final stopping
+20:30:43,310 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 14) HQ151003: HornetQ resource adaptor stopped
+20:30:43,328 WARN  [org.hornetq.core.server] (ServerService Thread Pool -- 14) HQ222113: On ManagementService stop, there are 3 unexpected registered MBeans: [core.acceptor.in-vm, core.acceptor.netty, core.acceptor.netty-throughput]
+20:30:43,451 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 14) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] stopped
+20:30:43,456 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) stopped in 188ms
+20:35:21,122 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+20:35:21,329 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+20:35:21,402 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) starting
+20:35:21,410 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.google.appengine.runtime.environment = Production
+	enable.all = true
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /servers/ServerAppCapedWarf/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_91/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_91/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = /servers/ServerAppCapedWarf
+	jboss.host.name = localhost
+	jboss.modules.dir = /servers/ServerAppCapedWarf/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = node1
+	jboss.qualified.host.name = localhost.localdomain
+	jboss.server.base.dir = /servers/ServerAppCapedWarf/standalone
+	jboss.server.config.dir = /servers/ServerAppCapedWarf/standalone/configuration
+	jboss.server.data.dir = /servers/ServerAppCapedWarf/standalone/data
+	jboss.server.deploy.dir = /servers/ServerAppCapedWarf/standalone/data/content
+	jboss.server.log.dir = /servers/ServerAppCapedWarf/standalone/log
+	jboss.server.name = localhost
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /servers/ServerAppCapedWarf/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/servers/ServerAppCapedWarf/standalone/configuration/logging.properties
+	module.path = /servers/ServerAppCapedWarf/modules
+	org.jboss.boot.log.file = /servers/ServerAppCapedWarf/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.1.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_91/jre/lib/resources.jar:/usr/java/jdk1.8.0_91/jre/lib/rt.jar:/usr/java/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_91/jre/lib/jsse.jar:/usr/java/jdk1.8.0_91/jre/lib/jce.jar:/usr/java/jdk1.8.0_91/jre/lib/charsets.jar:/usr/java/jdk1.8.0_91/jre/lib/jfr.jar:/usr/java/jdk1.8.0_91/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_91/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /servers/ServerAppCapedWarf/jboss-modules.jar -mp /servers/ServerAppCapedWarf/modules org.jboss.as.standalone -Djboss.home.dir=/servers/ServerAppCapedWarf -Djboss.server.base.dir=/servers/ServerAppCapedWarf/standalone -Denable.all -Djboss.node.name=node1 -Dcom.google.appengine.runtime.environment=Production -Djboss.server.base.dir=/servers/ServerAppCapedWarf/standalone -c standalone-capedwarf.xml -b 0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = ES
+	user.dir = /servers
+	user.home = /root
+	user.language = es
+	user.name = root
+	user.timezone = America/Lima
+20:35:21,411 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms512m -Xmx1g -XX:MaxPermSize=128m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/servers/ServerAppCapedWarf/standalone/log/server.log -Dlogging.configuration=file:/servers/ServerAppCapedWarf/standalone/configuration/logging.properties 
+20:35:23,105 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 21) JBAS011618: There is no resource matching the expiry-address jms.queue.ExpiryQueue for the address-settings #, expired messages from destinations matching this address-setting will be lost!
+20:35:23,112 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 21) JBAS011619: There is no resource matching the dead-letter-address jms.queue.DLQ for the address-settings #, undelivered messages from destinations matching this address-setting will be lost!
+20:35:23,135 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.0.Final
+20:35:23,139 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+20:35:23,160 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.0.Final
+20:35:23,272 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 28) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+20:35:23,279 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 24) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+20:35:23,280 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.7.Final
+20:35:23,303 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+20:35:23,326 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 32) JBAS010260: Activating JGroups subsystem.
+20:35:23,467 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+20:35:23,483 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 41) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+20:35:23,484 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 40) JBAS013171: Activating Security Subsystem
+20:35:23,502 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+20:35:23,509 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013170: Current PicketBox version=4.0.21.Final
+20:35:23,512 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010417: Started Driver service with driver-name = h2
+20:35:23,563 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.8.Final starting
+20:35:23,564 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017502: Undertow 1.1.8.Final starting
+20:35:23,590 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+20:35:23,590 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+20:35:23,743 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017527: Creating file handler for path /servers/ServerAppCapedWarf/welcome-content
+20:35:23,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+20:35:23,843 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+20:35:23,906 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:8080
+20:35:23,908 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow AJP listener ajp listening on /0.0.0.0:8009
+20:35:23,957 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingjournal,bindingsDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingbindings,largeMessagesDirectory=/servers/ServerAppCapedWarf/standalone/data/messaginglargemessages,pagingDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingpaging)
+20:35:23,959 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221006: Waiting to obtain live lock
+20:35:24,037 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221012: Using AIO Journal
+20:35:24,180 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 44) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+20:35:24,202 WARN  [org.jboss.as.connector.deployers.RADeployer] (MSC service thread 1-1) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:35:24,224 WARN  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-7) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:35:24,247 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+20:35:24,270 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+20:35:24,300 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support CORE
+20:35:24,307 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support AMQP
+20:35:24,328 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support STOMP
+20:35:24,419 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on 127.0.0.1:9999
+20:35:24,440 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /servers/ServerAppCapedWarf/standalone/deployments
+20:35:24,537 INFO  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-7) IJ020002: Deployed: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+20:35:24,645 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221034: Waiting to obtain live lock
+20:35:24,645 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221035: Live Server Obtained live lock
+20:35:25,548 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5455
+20:35:25,553 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5445
+20:35:25,581 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221007: Server is now live
+20:35:25,582 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] 
+20:35:25,595 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 44) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+20:35:25,642 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010406: Registered connection factory java:/JmsXA
+20:35:25,690 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 46) HQ221003: trying to deploy queue jms.queue.capedwarfQueue
+20:35:25,707 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 46) JBAS011601: Bound messaging object to jndi name queue/capedwarf
+20:35:25,708 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 46) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/capedwarf
+20:35:25,712 INFO  [org.hornetq.jms.server] (ServerService Thread Pool -- 45) HQ121005: Invalid "host" value "0.0.0.0" detected for "netty" connector. Switching to "localhost". If this new address is incorrect please manually configure the connector to use the proper one.
+20:35:25,715 INFO  [org.hornetq.ra] (MSC service thread 1-8) HornetQ resource adaptor started
+20:35:25,716 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 45) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+20:35:25,716 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatorhornetq-ra
+20:35:25,722 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+20:35:25,722 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+20:35:26,113 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+20:35:26,113 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+20:35:26,114 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) started in 5271ms - Started 210 of 411 services (243 services are lazy, passive or on-demand)
+20:35:42,805 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+20:35:42,806 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+20:35:42,812 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017532: Host default-host stopping
+20:35:42,814 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+20:35:42,814 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+20:35:42,814 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 2) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+20:35:42,815 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to /0.0.0.0:8080
+20:35:42,829 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow AJP listener ajp suspending
+20:35:42,831 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow AJP listener ajp stopped, was bound to /0.0.0.0:8009
+20:35:42,834 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 21) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+20:35:42,836 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010418: Stopped Driver service with driver-name = h2
+20:35:42,837 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 16) JBAS011605: Unbound messaging object to jndi name java:/queue/capedwarf
+20:35:42,839 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.1.8.Final stopping
+20:35:42,852 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 11) HQ151003: HornetQ resource adaptor stopped
+20:35:42,878 WARN  [org.hornetq.core.server] (ServerService Thread Pool -- 11) HQ222113: On ManagementService stop, there are 3 unexpected registered MBeans: [core.acceptor.in-vm, core.acceptor.netty, core.acceptor.netty-throughput]
+20:35:43,023 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 11) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] stopped
+20:35:43,028 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) stopped in 206ms
+21:10:12,645 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+21:10:12,798 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+21:10:12,857 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) starting
+21:10:12,863 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.google.appengine.runtime.environment = Production
+	enable.all = true
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /servers/ServerAppCapedWarf/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_91/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_91/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = /servers/ServerAppCapedWarf
+	jboss.host.name = localhost
+	jboss.modules.dir = /servers/ServerAppCapedWarf/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = node1
+	jboss.qualified.host.name = localhost.localdomain
+	jboss.server.base.dir = /servers/ServerAppCapedWarf/standalone
+	jboss.server.config.dir = /servers/ServerAppCapedWarf/standalone/configuration
+	jboss.server.data.dir = /servers/ServerAppCapedWarf/standalone/data
+	jboss.server.deploy.dir = /servers/ServerAppCapedWarf/standalone/data/content
+	jboss.server.log.dir = /servers/ServerAppCapedWarf/standalone/log
+	jboss.server.name = localhost
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /servers/ServerAppCapedWarf/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/servers/ServerAppCapedWarf/standalone/configuration/logging.properties
+	module.path = /servers/ServerAppCapedWarf/modules
+	org.jboss.boot.log.file = /servers/ServerAppCapedWarf/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.1.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_91/jre/lib/resources.jar:/usr/java/jdk1.8.0_91/jre/lib/rt.jar:/usr/java/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_91/jre/lib/jsse.jar:/usr/java/jdk1.8.0_91/jre/lib/jce.jar:/usr/java/jdk1.8.0_91/jre/lib/charsets.jar:/usr/java/jdk1.8.0_91/jre/lib/jfr.jar:/usr/java/jdk1.8.0_91/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_91/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /servers/ServerAppCapedWarf/jboss-modules.jar -mp /servers/ServerAppCapedWarf/modules org.jboss.as.standalone -Djboss.home.dir=/servers/ServerAppCapedWarf -Djboss.server.base.dir=/servers/ServerAppCapedWarf/standalone -Denable.all -Djboss.node.name=node1 -Dcom.google.appengine.runtime.environment=Production -Djboss.server.base.dir=/servers/ServerAppCapedWarf/standalone -c standalone-capedwarf.xml -b 0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = ES
+	user.dir = /servers
+	user.home = /root
+	user.language = es
+	user.name = root
+	user.timezone = America/Lima
+21:10:12,863 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms512m -Xmx1g -XX:MaxPermSize=128m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/servers/ServerAppCapedWarf/standalone/log/server.log -Dlogging.configuration=file:/servers/ServerAppCapedWarf/standalone/configuration/logging.properties 
+21:10:14,182 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 11) JBAS011618: There is no resource matching the expiry-address jms.queue.ExpiryQueue for the address-settings #, expired messages from destinations matching this address-setting will be lost!
+21:10:14,184 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 11) JBAS011619: There is no resource matching the dead-letter-address jms.queue.DLQ for the address-settings #, undelivered messages from destinations matching this address-setting will be lost!
+21:10:14,202 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+21:10:14,204 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.0.Final
+21:10:14,222 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.0.Final
+21:10:14,276 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 28) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+21:10:14,287 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+21:10:14,293 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.7.Final
+21:10:14,294 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 24) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+21:10:14,304 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 32) JBAS010260: Activating JGroups subsystem.
+21:10:14,413 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 41) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+21:10:14,416 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+21:10:14,417 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = h2
+21:10:14,431 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+21:10:14,432 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 40) JBAS013171: Activating Security Subsystem
+21:10:14,470 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Final
+21:10:14,504 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+21:10:14,505 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+21:10:14,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.1.8.Final starting
+21:10:14,546 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017502: Undertow 1.1.8.Final starting
+21:10:14,682 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) JBAS017527: Creating file handler for path /servers/ServerAppCapedWarf/welcome-content
+21:10:14,698 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017525: Started server default-server.
+21:10:14,723 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017531: Host default-host starting
+21:10:14,816 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:8080
+21:10:14,816 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow AJP listener ajp listening on /0.0.0.0:8009
+21:10:15,011 WARN  [org.jboss.as.connector.deployers.RADeployer] (MSC service thread 1-5) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+21:10:15,022 WARN  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-8) IJ020017: Invalid archive: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+21:10:15,025 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+21:10:15,066 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.1.3.Final
+21:10:15,111 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:9999
+21:10:15,132 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /servers/ServerAppCapedWarf/standalone/deployments
+21:10:15,134 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingjournal,bindingsDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingbindings,largeMessagesDirectory=/servers/ServerAppCapedWarf/standalone/data/messaginglargemessages,pagingDirectory=/servers/ServerAppCapedWarf/standalone/data/messagingpaging)
+21:10:15,137 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221006: Waiting to obtain live lock
+21:10:15,170 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221012: Using AIO Journal
+21:10:15,232 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 44) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+21:10:15,280 INFO  [org.jboss.as.connector.deployers.RaXmlDeployer] (MSC service thread 1-8) IJ020002: Deployed: file:/servers/ServerAppCapedWarf/modules/org/wildfly/mail/ra/main/./
+21:10:15,296 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support CORE
+21:10:15,304 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support AMQP
+21:10:15,307 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221043: Adding protocol support STOMP
+21:10:15,434 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221034: Waiting to obtain live lock
+21:10:15,435 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221035: Live Server Obtained live lock
+21:10:15,735 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5455
+21:10:15,740 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221020: Started Netty Acceptor version unknown 0.0.0.0:5445
+21:10:15,755 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221007: Server is now live
+21:10:15,755 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] 
+21:10:15,759 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 44) HQ221003: trying to deploy queue jms.queue.capedwarfQueue
+21:10:15,767 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 44) JBAS011601: Bound messaging object to jndi name queue/capedwarf
+21:10:15,767 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 44) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/capedwarf
+21:10:15,805 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010406: Registered connection factory java:/JmsXA
+21:10:15,800 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 46) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+21:10:15,815 INFO  [org.hornetq.jms.server] (ServerService Thread Pool -- 45) HQ121005: Invalid "host" value "0.0.0.0" detected for "netty" connector. Switching to "localhost". If this new address is incorrect please manually configure the connector to use the proper one.
+21:10:15,818 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 45) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:10:15,841 INFO  [org.hornetq.ra] (MSC service thread 1-3) HornetQ resource adaptor started
+21:10:15,841 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatorhornetq-ra
+21:10:15,842 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+21:10:15,842 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+21:10:16,002 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+21:10:16,003 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+21:10:16,003 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) started in 3581ms - Started 210 of 411 services (243 services are lazy, passive or on-demand)
+21:10:20,195 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+21:10:20,198 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 7) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:10:20,199 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow AJP listener ajp suspending
+21:10:20,200 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow AJP listener ajp stopped, was bound to /0.0.0.0:8009
+21:10:20,201 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
+21:10:20,201 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+21:10:20,202 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 11) JBAS011605: Unbound messaging object to jndi name java:/queue/capedwarf
+21:10:20,198 INFO  [org.jboss.as.messaging] (MSC service thread 1-8) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+21:10:20,205 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017521: Undertow HTTP listener default suspending
+21:10:20,206 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 11) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/queue/capedwarf
+21:10:20,209 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017520: Undertow HTTP listener default stopped, was bound to /0.0.0.0:8080
+21:10:20,210 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010418: Stopped Driver service with driver-name = h2
+21:10:20,219 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017506: Undertow 1.1.8.Final stopping
+21:10:20,228 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 16) HQ151003: HornetQ resource adaptor stopped
+21:10:20,240 WARN  [org.hornetq.core.server] (ServerService Thread Pool -- 16) HQ222113: On ManagementService stop, there are 3 unexpected registered MBeans: [core.acceptor.in-vm, core.acceptor.netty, core.acceptor.netty-throughput]
+21:10:20,324 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 16) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [551d45e0-0fc0-11e9-aa00-e3c7d42376ac] stopped
+21:10:20,330 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: JBoss Capedwarf 2.0.1.Final (WildFly 8.2.1.Final) stopped in 123ms
